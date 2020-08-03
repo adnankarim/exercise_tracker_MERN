@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-const Schema = require("Schema");
+const Schema = mongoose.Schema;
 // trim removes spaces and timestamp: ? when it was CRUD
 const userSchema = new Schema(
   {
